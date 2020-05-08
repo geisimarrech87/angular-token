@@ -12,6 +12,8 @@ export interface RegisterData {
   password:               string;
   passwordConfirmation:   string;
   name?:                  string;
+  address?:               string;
+  phone?:                 string;
   userType?:              string;
 }
 
@@ -57,6 +59,8 @@ export interface UserData {
   provider:       string;
   uid:            string;
   name:           string;
+  address:        string;
+  phone:          string;
   nickname:       string;
   image:          any;
   login:          string;
